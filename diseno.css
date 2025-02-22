@@ -42,7 +42,7 @@ nav ul li a {
 
 }
 
-a:hover {
+.boton:hover {
     background-color: rgb(34, 192, 192);
     padding: 10px;
     border-radius: 10px;
@@ -63,8 +63,134 @@ section {
 
 }
 
-#productos {
+.productos {
 
-background-color:rgb(243, 222, 191); 
+    background-color: rgb(243, 222, 191);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
+    
 
+}
+
+.articulos {
+
+    display: flex;
+
+}
+
+.todo-articulos {
+
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 50px;
+
+}
+
+.producto1 {
+
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+
+}
+
+.producto2 {
+
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+
+}
+
+.producto3 {
+
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+
+}
+
+.producto1 ul li {
+
+    display: inline;
+    margin: 0px 25px;
+    background-color: rgb(37, 28, 207);
+    padding: 12px 45px;
+    border-radius: 25px;
+    box-shadow: 0 7px 10px;
+}
+
+.producto1 ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.producto2 ul li {
+
+    display: inline;
+    margin: 0 25px;
+    background-color: rgb(37, 28, 207);
+    padding: 12px 45px;
+    border-radius: 25px;
+    box-shadow: 0 7px 10px;
+}
+
+.producto2 ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.producto3 ul li {
+
+    display: inline;
+    margin: 0 25px;
+    background-color: rgb(37, 28, 207);
+    padding: 12px 45px;
+    border-radius: 25px;
+    box-shadow: 0 7px 10px;
+}
+
+.producto3 ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#nombre {
+
+width: 700px;
+height: 50px;
+
+}
+
+#email {
+
+    width: 700px;
+    height: 50px;
+    
+    }
+
+#boton-final{
+
+width: 700px;
+height: 50px;
+border-radius: 25px;
+background-color: green;
+color: white;
+
+}
+
+footer {
+size: 100px;
+text-align: center;
+background-color: gray;
+padding-bottom: 5px;
+padding-top: 5px;
+color: rgb(171, 171, 171);
 }
